@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wood_brown">#FF7A431D</color>
+    <color name="parchment_cream">#FFF4E4BC</color>
+    <color name="dark_earth">#FF3E2723</color>
+    <color name="stardew_gold">#FFD4AF37</color>
+    <color name="pixel_shadow">#FF1A1A1A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

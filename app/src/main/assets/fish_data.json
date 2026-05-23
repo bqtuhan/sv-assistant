@@ -1,0 +1,34 @@
+[
+  {
+    "id": "128",
+    "name": "Pufferfish",
+    "location": "Ocean",
+    "time": "12:00 PM - 4:00 PM",
+    "season": "Summer",
+    "weather": "Sunny"
+  },
+  {
+    "id": "136",
+    "name": "Largemouth Bass",
+    "location": "Mountain Lake",
+    "time": "6:00 AM - 7:00 PM",
+    "season": "All",
+    "weather": "Any"
+  },
+  {
+    "id": "163",
+    "name": "Legend",
+    "location": "Mountain Lake (Log)",
+    "time": "6:00 AM - 7:00 PM",
+    "season": "Spring",
+    "weather": "Rain"
+  },
+  {
+    "id": "159",
+    "name": "Crimsonfish",
+    "location": "Ocean (East Pier)",
+    "time": "6:00 AM - 7:00 PM",
+    "season": "Summer",
+    "weather": "Any"
+  }
+]
