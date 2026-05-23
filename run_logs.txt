@@ -1,0 +1,275 @@
+build	Set up job	﻿2026-05-23T14:41:53.9711666Z Current runner version: '2.334.0'
+build	Set up job	2026-05-23T14:41:53.9735934Z ##[group]Runner Image Provisioner
+build	Set up job	2026-05-23T14:41:53.9736798Z Hosted Compute Agent
+build	Set up job	2026-05-23T14:41:53.9737339Z Version: 20260213.493
+build	Set up job	2026-05-23T14:41:53.9737890Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+build	Set up job	2026-05-23T14:41:53.9738618Z Build Date: 2026-02-13T00:28:41Z
+build	Set up job	2026-05-23T14:41:53.9739241Z Worker ID: {293d8d3f-e469-4a85-bfea-3795c9377415}
+build	Set up job	2026-05-23T14:41:53.9740181Z Azure Region: westcentralus
+build	Set up job	2026-05-23T14:41:53.9740738Z ##[endgroup]
+build	Set up job	2026-05-23T14:41:53.9742146Z ##[group]Operating System
+build	Set up job	2026-05-23T14:41:53.9742776Z Ubuntu
+build	Set up job	2026-05-23T14:41:53.9743249Z 24.04.4
+build	Set up job	2026-05-23T14:41:53.9743727Z LTS
+build	Set up job	2026-05-23T14:41:53.9744204Z ##[endgroup]
+build	Set up job	2026-05-23T14:41:53.9744725Z ##[group]Runner Image
+build	Set up job	2026-05-23T14:41:53.9745275Z Image: ubuntu-24.04
+build	Set up job	2026-05-23T14:41:53.9745788Z Version: 20260518.149.1
+build	Set up job	2026-05-23T14:41:53.9746700Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260518.149/images/ubuntu/Ubuntu2404-Readme.md
+build	Set up job	2026-05-23T14:41:53.9748255Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260518.149
+build	Set up job	2026-05-23T14:41:53.9749103Z ##[endgroup]
+build	Set up job	2026-05-23T14:41:53.9750425Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2026-05-23T14:41:53.9752237Z Contents: read
+build	Set up job	2026-05-23T14:41:53.9752777Z Metadata: read
+build	Set up job	2026-05-23T14:41:53.9753300Z Packages: read
+build	Set up job	2026-05-23T14:41:53.9753848Z ##[endgroup]
+build	Set up job	2026-05-23T14:41:53.9755791Z Secret source: Actions
+build	Set up job	2026-05-23T14:41:53.9756824Z Prepare workflow directory
+build	Set up job	2026-05-23T14:41:54.0064836Z Prepare all required actions
+build	Set up job	2026-05-23T14:41:54.0103214Z Getting action download info
+build	Set up job	2026-05-23T14:41:54.4793772Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+build	Set up job	2026-05-23T14:41:54.6114568Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+build	Set up job	2026-05-23T14:41:55.5788522Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build	Set up job	2026-05-23T14:41:55.6661004Z Download action repository 'softprops/action-gh-release@v2' (SHA:3bb12739c298aeb8a4eeaf626c5b8d85266b0e65)
+build	Set up job	2026-05-23T14:41:56.2608754Z Complete job name: build
+build	Checkout code	﻿2026-05-23T14:41:56.3487310Z ##[group]Run actions/checkout@v4
+build	Checkout code	2026-05-23T14:41:56.3488521Z with:
+build	Checkout code	2026-05-23T14:41:56.3489303Z   repository: bqtuhan/sv-assistant
+build	Checkout code	2026-05-23T14:41:56.3497784Z   token: ***
+build	Checkout code	2026-05-23T14:41:56.3498540Z   ssh-strict: true
+build	Checkout code	2026-05-23T14:41:56.3499331Z   ssh-user: git
+build	Checkout code	2026-05-23T14:41:56.3500224Z   persist-credentials: true
+build	Checkout code	2026-05-23T14:41:56.3501109Z   clean: true
+build	Checkout code	2026-05-23T14:41:56.3501913Z   sparse-checkout-cone-mode: true
+build	Checkout code	2026-05-23T14:41:56.3502861Z   fetch-depth: 1
+build	Checkout code	2026-05-23T14:41:56.3503660Z   fetch-tags: false
+build	Checkout code	2026-05-23T14:41:56.3504459Z   show-progress: true
+build	Checkout code	2026-05-23T14:41:56.3505264Z   lfs: false
+build	Checkout code	2026-05-23T14:41:56.3506021Z   submodules: false
+build	Checkout code	2026-05-23T14:41:56.3506841Z   set-safe-directory: true
+build	Checkout code	2026-05-23T14:41:56.3507933Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:56.4554715Z Syncing repository: bqtuhan/sv-assistant
+build	Checkout code	2026-05-23T14:41:56.4557396Z ##[group]Getting Git version info
+build	Checkout code	2026-05-23T14:41:56.4558702Z Working directory is '/home/runner/work/sv-assistant/sv-assistant'
+build	Checkout code	2026-05-23T14:41:56.4560851Z [command]/usr/bin/git version
+build	Checkout code	2026-05-23T14:41:56.4601391Z git version 2.54.0
+build	Checkout code	2026-05-23T14:41:56.4623959Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:56.4636780Z Temporarily overriding HOME='/home/runner/work/_temp/612e6c22-40fa-4c83-b1c9-e9829a5cd606' before making global git config changes
+build	Checkout code	2026-05-23T14:41:56.4639390Z Adding repository directory to the temporary git global config as a safe directory
+build	Checkout code	2026-05-23T14:41:56.4648438Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sv-assistant/sv-assistant
+build	Checkout code	2026-05-23T14:41:56.4685157Z Deleting the contents of '/home/runner/work/sv-assistant/sv-assistant'
+build	Checkout code	2026-05-23T14:41:56.4687648Z ##[group]Initializing the repository
+build	Checkout code	2026-05-23T14:41:56.4691602Z [command]/usr/bin/git init /home/runner/work/sv-assistant/sv-assistant
+build	Checkout code	2026-05-23T14:41:56.4748245Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Checkout code	2026-05-23T14:41:56.4750953Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build	Checkout code	2026-05-23T14:41:56.4753658Z hint: to use in all of your new repositories, which will suppress this warning,
+build	Checkout code	2026-05-23T14:41:56.4754983Z hint: call:
+build	Checkout code	2026-05-23T14:41:56.4755852Z hint:
+build	Checkout code	2026-05-23T14:41:56.4756843Z hint: 	git config --global init.defaultBranch <name>
+build	Checkout code	2026-05-23T14:41:56.4758229Z hint:
+build	Checkout code	2026-05-23T14:41:56.4759238Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Checkout code	2026-05-23T14:41:56.4761065Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Checkout code	2026-05-23T14:41:56.4762748Z hint:
+build	Checkout code	2026-05-23T14:41:56.4763488Z hint: 	git branch -m <name>
+build	Checkout code	2026-05-23T14:41:56.4764312Z hint:
+build	Checkout code	2026-05-23T14:41:56.4765399Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Checkout code	2026-05-23T14:41:56.4767417Z Initialized empty Git repository in /home/runner/work/sv-assistant/sv-assistant/.git/
+build	Checkout code	2026-05-23T14:41:56.4770474Z [command]/usr/bin/git remote add origin https://github.com/bqtuhan/sv-assistant
+build	Checkout code	2026-05-23T14:41:56.4796459Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:56.4797815Z ##[group]Disabling automatic garbage collection
+build	Checkout code	2026-05-23T14:41:56.4800001Z [command]/usr/bin/git config --local gc.auto 0
+build	Checkout code	2026-05-23T14:41:56.4824842Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:56.4826142Z ##[group]Setting up auth
+build	Checkout code	2026-05-23T14:41:56.4830476Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Checkout code	2026-05-23T14:41:56.4857307Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Checkout code	2026-05-23T14:41:56.5115082Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Checkout code	2026-05-23T14:41:56.5141460Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Checkout code	2026-05-23T14:41:56.5301190Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Checkout code	2026-05-23T14:41:56.5326287Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Checkout code	2026-05-23T14:41:56.5497034Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Checkout code	2026-05-23T14:41:56.5524982Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:56.5527381Z ##[group]Fetching the repository
+build	Checkout code	2026-05-23T14:41:56.5535524Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +1e4d6492fe0df1373dd6d2b53e230ef78a162f84:refs/tags/v1.0.7
+build	Checkout code	2026-05-23T14:41:57.0307076Z From https://github.com/bqtuhan/sv-assistant
+build	Checkout code	2026-05-23T14:41:57.0308159Z  * [new ref]         1e4d6492fe0df1373dd6d2b53e230ef78a162f84 -> v1.0.7
+build	Checkout code	2026-05-23T14:41:57.0344543Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:57.0345341Z ##[group]Determining the checkout info
+build	Checkout code	2026-05-23T14:41:57.0346562Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:57.0353357Z [command]/usr/bin/git sparse-checkout disable
+build	Checkout code	2026-05-23T14:41:57.0392774Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Checkout code	2026-05-23T14:41:57.0415256Z ##[group]Checking out the ref
+build	Checkout code	2026-05-23T14:41:57.0421556Z [command]/usr/bin/git checkout --progress --force refs/tags/v1.0.7
+build	Checkout code	2026-05-23T14:41:57.0478686Z Note: switching to 'refs/tags/v1.0.7'.
+build	Checkout code	2026-05-23T14:41:57.0479413Z 
+build	Checkout code	2026-05-23T14:41:57.0480096Z You are in 'detached HEAD' state. You can look around, make experimental
+build	Checkout code	2026-05-23T14:41:57.0481201Z changes and commit them, and you can discard any commits you make in this
+build	Checkout code	2026-05-23T14:41:57.0482071Z state without impacting any branches by switching back to a branch.
+build	Checkout code	2026-05-23T14:41:57.0482462Z 
+build	Checkout code	2026-05-23T14:41:57.0482847Z If you want to create a new branch to retain commits you create, you may
+build	Checkout code	2026-05-23T14:41:57.0483327Z do so (now or later) by using -c with the switch command. Example:
+build	Checkout code	2026-05-23T14:41:57.0483859Z 
+build	Checkout code	2026-05-23T14:41:57.0484152Z   git switch -c <new-branch-name>
+build	Checkout code	2026-05-23T14:41:57.0484362Z 
+build	Checkout code	2026-05-23T14:41:57.0484488Z Or undo this operation with:
+build	Checkout code	2026-05-23T14:41:57.0484772Z 
+build	Checkout code	2026-05-23T14:41:57.0484990Z   git switch -
+build	Checkout code	2026-05-23T14:41:57.0485215Z 
+build	Checkout code	2026-05-23T14:41:57.0485730Z Turn off this advice by setting config variable advice.detachedHead to false
+build	Checkout code	2026-05-23T14:41:57.0486269Z 
+build	Checkout code	2026-05-23T14:41:57.0486590Z HEAD is now at 1e4d649 fix: resolve syntax error in SaveParser.kt
+build	Checkout code	2026-05-23T14:41:57.0488185Z ##[endgroup]
+build	Checkout code	2026-05-23T14:41:57.0521141Z [command]/usr/bin/git log -1 --format=%H
+build	Checkout code	2026-05-23T14:41:57.0539393Z 1e4d6492fe0df1373dd6d2b53e230ef78a162f84
+build	set up JDK 17	﻿2026-05-23T14:41:57.0803555Z ##[group]Run actions/setup-java@v4
+build	set up JDK 17	2026-05-23T14:41:57.0803908Z with:
+build	set up JDK 17	2026-05-23T14:41:57.0804148Z   java-version: 17
+build	set up JDK 17	2026-05-23T14:41:57.0804411Z   distribution: temurin
+build	set up JDK 17	2026-05-23T14:41:57.0804688Z   cache: gradle
+build	set up JDK 17	2026-05-23T14:41:57.0804939Z   java-package: jdk
+build	set up JDK 17	2026-05-23T14:41:57.0805205Z   check-latest: false
+build	set up JDK 17	2026-05-23T14:41:57.0805461Z   server-id: github
+build	set up JDK 17	2026-05-23T14:41:57.0805717Z   server-username: GITHUB_ACTOR
+build	set up JDK 17	2026-05-23T14:41:57.0806021Z   server-password: GITHUB_TOKEN
+build	set up JDK 17	2026-05-23T14:41:57.0806315Z   overwrite-settings: true
+build	set up JDK 17	2026-05-23T14:41:57.0806588Z   job-status: success
+build	set up JDK 17	2026-05-23T14:41:57.0809320Z   token: ***
+build	set up JDK 17	2026-05-23T14:41:57.0809565Z ##[endgroup]
+build	set up JDK 17	2026-05-23T14:41:57.2712717Z ##[group]Installed distributions
+build	set up JDK 17	2026-05-23T14:41:57.2767872Z Resolved Java 17.0.19+10 from tool-cache
+build	set up JDK 17	2026-05-23T14:41:57.2768804Z Setting Java 17.0.19+10 as the default
+build	set up JDK 17	2026-05-23T14:41:57.2779465Z Creating toolchains.xml for JDK version 17 from temurin
+build	set up JDK 17	2026-05-23T14:41:57.2846371Z Writing to /home/runner/.m2/toolchains.xml
+build	set up JDK 17	2026-05-23T14:41:57.2847002Z 
+build	set up JDK 17	2026-05-23T14:41:57.2847348Z Java configuration:
+build	set up JDK 17	2026-05-23T14:41:57.2848416Z   Distribution: temurin
+build	set up JDK 17	2026-05-23T14:41:57.2848908Z   Version: 17.0.19+10
+build	set up JDK 17	2026-05-23T14:41:57.2849494Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build	set up JDK 17	2026-05-23T14:41:57.2850271Z 
+build	set up JDK 17	2026-05-23T14:41:57.2850800Z ##[endgroup]
+build	set up JDK 17	2026-05-23T14:41:57.2866097Z Creating settings.xml with server-id: github
+build	set up JDK 17	2026-05-23T14:41:57.2873207Z Writing to /home/runner/.m2/settings.xml
+build	set up JDK 17	2026-05-23T14:41:57.5366223Z gradle cache is not found
+build	Grant execute permission for gradlew	﻿2026-05-23T14:41:57.5461855Z ##[group]Run chmod +x gradlew
+build	Grant execute permission for gradlew	2026-05-23T14:41:57.5462303Z [36;1mchmod +x gradlew[0m
+build	Grant execute permission for gradlew	2026-05-23T14:41:57.5486930Z shell: /usr/bin/bash -e {0}
+build	Grant execute permission for gradlew	2026-05-23T14:41:57.5487267Z env:
+build	Grant execute permission for gradlew	2026-05-23T14:41:57.5487622Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build	Grant execute permission for gradlew	2026-05-23T14:41:57.5488159Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build	Grant execute permission for gradlew	2026-05-23T14:41:57.5488573Z ##[endgroup]
+build	Build with Gradle	﻿2026-05-23T14:41:57.5583551Z ##[group]Run ./gradlew assembleDebug
+build	Build with Gradle	2026-05-23T14:41:57.5583923Z [36;1m./gradlew assembleDebug[0m
+build	Build with Gradle	2026-05-23T14:41:57.5601025Z shell: /usr/bin/bash -e {0}
+build	Build with Gradle	2026-05-23T14:41:57.5601329Z env:
+build	Build with Gradle	2026-05-23T14:41:57.5601675Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build	Build with Gradle	2026-05-23T14:41:57.5602228Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.19-10/x64
+build	Build with Gradle	2026-05-23T14:41:57.5602642Z ##[endgroup]
+build	Build with Gradle	2026-05-23T14:41:57.7063435Z Downloading https://services.gradle.org/distributions/gradle-8.7-bin.zip
+build	Build with Gradle	2026-05-23T14:41:59.3492788Z ............10%.............20%.............30%.............40%............50%.............60%.............70%.............80%.............90%............100%
+build	Build with Gradle	2026-05-23T14:42:00.3476611Z 
+build	Build with Gradle	2026-05-23T14:42:00.3485466Z Welcome to Gradle 8.7!
+build	Build with Gradle	2026-05-23T14:42:00.3486066Z 
+build	Build with Gradle	2026-05-23T14:42:00.3486468Z Here are the highlights of this release:
+build	Build with Gradle	2026-05-23T14:42:00.3487122Z  - Compiling and testing with Java 22
+build	Build with Gradle	2026-05-23T14:42:00.3487761Z  - Cacheable Groovy script compilation
+build	Build with Gradle	2026-05-23T14:42:00.3488544Z  - New methods in lazy collection properties
+build	Build with Gradle	2026-05-23T14:42:00.3489032Z 
+build	Build with Gradle	2026-05-23T14:42:00.3489568Z For more details see https://docs.gradle.org/8.7/release-notes.html
+build	Build with Gradle	2026-05-23T14:42:00.3490827Z 
+build	Build with Gradle	2026-05-23T14:42:00.4457633Z Starting a Gradle Daemon (subsequent builds will be faster)
+build	Build with Gradle	2026-05-23T14:42:57.3465846Z WARNING: The following problems were found when resolving the SDK location:
+build	Build with Gradle	2026-05-23T14:42:57.3467347Z Where: sdk.dir property in local.properties file. Problem: Directory does not exist
+build	Build with Gradle	2026-05-23T14:42:57.3468341Z 
+build	Build with Gradle	2026-05-23T14:42:58.0491678Z > Task :app:preBuild UP-TO-DATE
+build	Build with Gradle	2026-05-23T14:42:58.0500398Z > Task :app:preDebugBuild UP-TO-DATE
+build	Build with Gradle	2026-05-23T14:42:58.0530954Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+build	Build with Gradle	2026-05-23T14:42:58.0537476Z > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+build	Build with Gradle	2026-05-23T14:43:28.0461088Z > Task :app:checkDebugAarMetadata
+build	Build with Gradle	2026-05-23T14:43:28.8483733Z > Task :app:generateDebugResValues
+build	Build with Gradle	2026-05-23T14:43:28.9457468Z > Task :app:mapDebugSourceSetPaths
+build	Build with Gradle	2026-05-23T14:43:28.9458429Z > Task :app:generateDebugResources
+build	Build with Gradle	2026-05-23T14:43:30.1460947Z > Task :app:packageDebugResources
+build	Build with Gradle	2026-05-23T14:43:30.8457768Z > Task :app:mergeDebugResources
+build	Build with Gradle	2026-05-23T14:43:31.5481121Z > Task :app:createDebugCompatibleScreenManifests
+build	Build with Gradle	2026-05-23T14:43:31.5482005Z > Task :app:extractDeepLinksDebug
+build	Build with Gradle	2026-05-23T14:43:31.6471347Z > Task :app:parseDebugLocalResources
+build	Build with Gradle	2026-05-23T14:43:31.9469694Z > Task :app:processDebugMainManifest
+build	Build with Gradle	2026-05-23T14:43:31.9499083Z > Task :app:processDebugManifest
+build	Build with Gradle	2026-05-23T14:43:34.7456853Z > Task :app:processDebugManifestForPackage
+build	Build with Gradle	2026-05-23T14:43:34.7457612Z > Task :app:javaPreCompileDebug
+build	Build with Gradle	2026-05-23T14:43:36.2478005Z > Task :app:mergeDebugShaders
+build	Build with Gradle	2026-05-23T14:43:36.2510572Z > Task :app:compileDebugShaders NO-SOURCE
+build	Build with Gradle	2026-05-23T14:43:36.2541527Z > Task :app:generateDebugAssets UP-TO-DATE
+build	Build with Gradle	2026-05-23T14:43:36.3475800Z > Task :app:mergeDebugAssets
+build	Build with Gradle	2026-05-23T14:43:36.4471216Z > Task :app:compressDebugAssets
+build	Build with Gradle	2026-05-23T14:43:36.4530631Z > Task :app:desugarDebugFileDependencies
+build	Build with Gradle	2026-05-23T14:43:37.0456848Z > Task :app:processDebugResources
+build	Build with Gradle	2026-05-23T14:43:38.0541141Z > Task :app:checkDebugDuplicateClasses
+build	Build with Gradle	2026-05-23T14:43:45.8456989Z > Task :app:mergeDebugStartupProfile
+build	Build with Gradle	2026-05-23T14:44:01.7460646Z > Task :app:kspDebugKotlin
+build	Build with Gradle	2026-05-23T14:44:15.7460669Z > Task :app:mergeExtDexDebug
+build	Build with Gradle	2026-05-23T14:44:39.9477694Z > Task :app:mergeDebugJniLibFolders
+build	Build with Gradle	2026-05-23T14:44:39.9505724Z > Task :app:mergeLibDexDebug
+build	Build with Gradle	2026-05-23T14:44:40.2460722Z > Task :app:mergeDebugNativeLibs
+build	Build with Gradle	2026-05-23T14:44:43.9510855Z > Task :app:validateSigningDebug
+build	Build with Gradle	2026-05-23T14:44:43.9550537Z > Task :app:writeDebugAppMetadata
+build	Build with Gradle	2026-05-23T14:44:43.9600510Z > Task :app:writeDebugSigningConfigVersions
+build	Build with Gradle	2026-05-23T14:44:44.0475244Z 
+build	Build with Gradle	2026-05-23T14:44:44.0500613Z > Task :app:stripDebugDebugSymbols
+build	Build with Gradle	2026-05-23T14:44:44.0551021Z Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so.
+build	Build with Gradle	2026-05-23T14:44:49.7456738Z 
+build	Build with Gradle	2026-05-23T14:44:49.7480636Z > Task :app:compileDebugKotlin FAILED
+build	Build with Gradle	2026-05-23T14:44:49.7553837Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuManager.kt:26:26 Unresolved reference 'IShizukuService'.
+build	Build with Gradle	2026-05-23T14:44:49.7555378Z 30 actionable tasks: 30 executed
+build	Build with Gradle	2026-05-23T14:44:49.7631369Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuManager.kt:31:27 Unresolved reference 'IShizukuService'.
+build	Build with Gradle	2026-05-23T14:44:49.7688014Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuManager.kt:85:32 Unresolved reference 'getSaveFileDescriptor'.
+build	Build with Gradle	2026-05-23T14:44:49.7701728Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuManager.kt:88:59 Argument type mismatch: actual type is 'kotlin.Any', but 'android.os.ParcelFileDescriptor!' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7711508Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuServiceImpl.kt:15:46 Unresolved reference 'IShizukuService'.
+build	Build with Gradle	2026-05-23T14:44:49.7714343Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuServiceImpl.kt:21:5 'getSaveFileDescriptor' overrides nothing.
+build	Build with Gradle	2026-05-23T14:44:49.7716726Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/shizuku/ShizukuServiceImpl.kt:30:5 'destroy' overrides nothing.
+build	Build with Gradle	2026-05-23T14:44:49.7719510Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:26:1 Class 'SVAssistantWidget' is not abstract and does not implement abstract base class member 'provideGlance'.
+build	Build with Gradle	2026-05-23T14:44:49.7722453Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:28:5 'Content' overrides nothing.
+build	Build with Gradle	2026-05-23T14:44:49.7725240Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:37:47 Argument type mismatch: actual type is 'kotlin.Int', but 'androidx.compose.ui.graphics.Color' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7728071Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:37:47 No value passed for parameter 'night'.
+build	Build with Gradle	2026-05-23T14:44:49.7730989Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:44:61 Argument type mismatch: actual type is 'kotlin.Int', but 'androidx.compose.ui.graphics.Color' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7733819Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:44:61 No value passed for parameter 'night'.
+build	Build with Gradle	2026-05-23T14:44:49.7736810Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:44:95 Argument type mismatch: actual type is 'androidx.compose.ui.text.font.FontWeight', but 'androidx.glance.text.FontWeight?' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7740317Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:49:61 Argument type mismatch: actual type is 'kotlin.Int', but 'androidx.compose.ui.graphics.Color' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7743097Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:49:61 No value passed for parameter 'night'.
+build	Build with Gradle	2026-05-23T14:44:49.7745906Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:54:61 Argument type mismatch: actual type is 'kotlin.Int', but 'androidx.compose.ui.graphics.Color' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7748975Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:54:61 No value passed for parameter 'night'.
+build	Build with Gradle	2026-05-23T14:44:49.7752259Z e: file:///home/runner/work/sv-assistant/sv-assistant/app/src/main/java/io/github/bqtuhan/svassistant/core/widget/SVAssistantWidget.kt:54:97 Argument type mismatch: actual type is 'androidx.compose.ui.text.font.FontWeight', but 'androidx.glance.text.FontWeight?' was expected.
+build	Build with Gradle	2026-05-23T14:44:49.7754253Z 
+build	Build with Gradle	2026-05-23T14:44:49.7754572Z FAILURE: Build failed with an exception.
+build	Build with Gradle	2026-05-23T14:44:49.7755009Z 
+build	Build with Gradle	2026-05-23T14:44:49.7755268Z * What went wrong:
+build	Build with Gradle	2026-05-23T14:44:49.7755894Z Execution failed for task ':app:compileDebugKotlin'.
+build	Build with Gradle	2026-05-23T14:44:49.7757262Z > A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+build	Build with Gradle	2026-05-23T14:44:49.7758602Z    > Compilation error. See log for more details
+build	Build with Gradle	2026-05-23T14:44:49.7759084Z 
+build	Build with Gradle	2026-05-23T14:44:49.7759323Z * Try:
+build	Build with Gradle	2026-05-23T14:44:49.7759965Z > Run with --stacktrace option to get the stack trace.
+build	Build with Gradle	2026-05-23T14:44:49.7760930Z > Run with --info or --debug option to get more log output.
+build	Build with Gradle	2026-05-23T14:44:49.7761610Z > Run with --scan to get full insights.
+build	Build with Gradle	2026-05-23T14:44:49.7762241Z > Get more help at https://help.gradle.org.
+build	Build with Gradle	2026-05-23T14:44:49.7762706Z 
+build	Build with Gradle	2026-05-23T14:44:49.7762977Z BUILD FAILED in 2m 52s
+build	Build with Gradle	2026-05-23T14:44:50.2718971Z ##[error]Process completed with exit code 1.
+build	Post set up JDK 17	﻿2026-05-23T14:44:50.2861744Z Post job cleanup.
+build	Post Checkout code	﻿2026-05-23T14:44:50.4597578Z Post job cleanup.
+build	Post Checkout code	2026-05-23T14:44:50.5476192Z [command]/usr/bin/git version
+build	Post Checkout code	2026-05-23T14:44:50.5509736Z git version 2.54.0
+build	Post Checkout code	2026-05-23T14:44:50.5548542Z Temporarily overriding HOME='/home/runner/work/_temp/f24c4b12-deb3-429b-92e4-a814feb535f7' before making global git config changes
+build	Post Checkout code	2026-05-23T14:44:50.5550000Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Checkout code	2026-05-23T14:44:50.5554873Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sv-assistant/sv-assistant
+build	Post Checkout code	2026-05-23T14:44:50.5589597Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Checkout code	2026-05-23T14:44:50.5616237Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Checkout code	2026-05-23T14:44:50.5784416Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Checkout code	2026-05-23T14:44:50.5803841Z http.https://github.com/.extraheader
+build	Post Checkout code	2026-05-23T14:44:50.5814324Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	Post Checkout code	2026-05-23T14:44:50.5837934Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Post Checkout code	2026-05-23T14:44:50.5996846Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Post Checkout code	2026-05-23T14:44:50.6020441Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Complete job	﻿2026-05-23T14:44:50.6276383Z Cleaning up orphan processes
+build	Complete job	2026-05-23T14:44:50.6527565Z Terminate orphan process: pid (2264) (java)
+build	Complete job	2026-05-23T14:44:50.6570741Z Terminate orphan process: pid (2431) (java)
+build	Complete job	2026-05-23T14:44:50.6586984Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-java@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

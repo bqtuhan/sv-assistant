@@ -17,6 +17,7 @@ import java.io.InputStream
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.coroutines.resume
+import io.github.bqtuhan.svassistant.core.shizuku.IShizukuService
 
 @Singleton
 class ShizukuManager @Inject constructor(

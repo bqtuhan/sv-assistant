@@ -10,6 +10,8 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
+import io.github.bqtuhan.svassistant.core.parser.readSimpleText
+import io.github.bqtuhan.svassistant.core.parser.skip
 import java.io.BufferedInputStream
 import java.io.InputStream
 import java.util.zip.GZIPInputStream
