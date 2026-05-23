@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "io.github.bqtuhan.svassistant.app-debug-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "io.github.bqtuhan.svassistant.app-main-73:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "io.github.bqtuhan.svassistant.app-debug-71:/xml_sv_widget_info.xml.flat",
+        "source": "io.github.bqtuhan.svassistant.app-main-73:/xml/sv_widget_info.xml"
+    },
+    {
+        "merged": "io.github.bqtuhan.svassistant.app-debug-71:/layout_widget_loading.xml.flat",
+        "source": "io.github.bqtuhan.svassistant.app-main-73:/layout/widget_loading.xml"
+    },
+    {
+        "merged": "io.github.bqtuhan.svassistant.app-debug-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "io.github.bqtuhan.svassistant.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "io.github.bqtuhan.svassistant.app-debug-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "io.github.bqtuhan.svassistant.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

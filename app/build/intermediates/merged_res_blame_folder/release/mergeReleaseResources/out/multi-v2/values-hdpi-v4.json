@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.github.bqtuhan.svassistant.app-mergeReleaseResources-65:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/ubuntu/.gradle/caches/transforms-4/3fc5f0b92f37d0549ea1ff70477d3a06/transformed/appcompat-1.7.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

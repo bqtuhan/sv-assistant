@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.github.bqtuhan.svassistant.app-mergeReleaseResources-65:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/ubuntu/.gradle/caches/transforms-4/3fc5f0b92f37d0549ea1ff70477d3a06/transformed/appcompat-1.7.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

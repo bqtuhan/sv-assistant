@@ -45,7 +45,7 @@ class SVAssistantWidget : GlanceAppWidget() {
             Column(
                 modifier = GlanceModifier
                     .fillMaxSize()
-                    .background(ColorProvider(Color(0xFFF5E6D3))) // Parchment Cream
+                    .background(ColorProvider(Color(0xFFF5E6D3), Color(0xFFF5E6D3))) // Parchment Cream
                     .padding(16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalAlignment = Alignment.CenterVertically
@@ -53,7 +53,7 @@ class SVAssistantWidget : GlanceAppWidget() {
                 Text(
                     text = widgetData.farmName,
                     style = TextStyle(
-                        color = ColorProvider(Color(0xFF5D4037)), // Dark Earth
+                        color = ColorProvider(Color(0xFF5D4037), Color(0xFF5D4037)), // Dark Earth
                         fontWeight = FontWeight.Bold, 
                         fontSize = 20.sp
                     )
@@ -62,7 +62,7 @@ class SVAssistantWidget : GlanceAppWidget() {
                 Text(
                     text = "${widgetData.season} ${widgetData.day}, Year ${widgetData.year}",
                     style = TextStyle(
-                        color = ColorProvider(Color(0xFF8D6E63)), // Wood Brown
+                        color = ColorProvider(Color(0xFF8D6E63), Color(0xFF8D6E63)), // Wood Brown
                         fontSize = 16.sp
                     )
                 )
@@ -70,7 +70,7 @@ class SVAssistantWidget : GlanceAppWidget() {
                 Text(
                     text = "${widgetData.gold}g",
                     style = TextStyle(
-                        color = ColorProvider(Color(0xFFFFD700)), // Stardew Gold
+                        color = ColorProvider(Color(0xFFFFD700), Color(0xFFFFD700)), // Stardew Gold
                         fontWeight = FontWeight.Bold, 
                         fontSize = 18.sp
                     )

@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color dark_earth
+color parchment_cream
+color pixel_shadow
+color stardew_gold
+color white
+color wood_brown
+drawable ic_launcher_background
+layout widget_loading
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.SVAssistant
+xml sv_widget_info

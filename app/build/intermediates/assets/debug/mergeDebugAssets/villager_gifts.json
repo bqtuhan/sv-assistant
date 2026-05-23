@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Abigail",
+    "loved": ["Amethyst", "Chocolate Cake", "Pumpkin", "Spicy Eel", "Blackberry Cobbler"],
+    "liked": ["Apple", "Artichoke", "Bat Wing", "Blueberry", "Crocus", "Daffodil", "Dandelion", "Egg", "Garlic", "Grape", "Hazelnut", "Hops", "Kale", "Leek", "Milk", "Morel", "Plum", "Poppy", "Purple Mushroom", "Red Mushroom", "Rhubarb", "Spice Berry", "Sugar", "Sweet Pea", "Tomato", "Tulip", "Wild Horseradish", "Winter Root", "Yam"]
+  },
+  {
+    "name": "Sebastian",
+    "loved": ["Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
+    "liked": ["Blueberry", "Crocus", "Daffodil", "Dandelion", "Egg", "Garlic", "Grape", "Hazelnut", "Hops", "Kale", "Leek", "Milk", "Morel", "Plum", "Poppy", "Purple Mushroom", "Red Mushroom", "Rhubarb", "Spice Berry", "Sugar", "Sweet Pea", "Tomato", "Tulip", "Wild Horseradish", "Winter Root", "Yam"]
+  },
+  {
+    "name": "Leah",
+    "loved": ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
+    "liked": ["Apple", "Artichoke", "Bat Wing", "Blueberry", "Crocus", "Daffodil", "Dandelion", "Egg", "Garlic", "Grape", "Hazelnut", "Hops", "Kale", "Leek", "Milk", "Morel", "Plum", "Poppy", "Purple Mushroom", "Red Mushroom", "Rhubarb", "Spice Berry", "Sugar", "Sweet Pea", "Tomato", "Tulip", "Wild Horseradish", "Winter Root", "Yam"]
+  }
+]
