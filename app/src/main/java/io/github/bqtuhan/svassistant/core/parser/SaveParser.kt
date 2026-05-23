@@ -194,7 +194,8 @@ class SaveParser @Inject constructor(
                             } else {
                                 parser.skip()
                             }
-                        }                        itemEvent = parser.next()
+                        }
+                        itemEvent = parser.next()
                     }
                     if (key.isNotEmpty()) stats[key] = value
                 } else if (parser.name != "Values") {
